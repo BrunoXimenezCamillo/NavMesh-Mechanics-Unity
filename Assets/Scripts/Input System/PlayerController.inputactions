@@ -1,0 +1,52 @@
+{
+    "name": "PlayerController",
+    "maps": [
+        {
+            "name": "Player 1",
+            "id": "22cd6c68-cc15-4410-9fb4-65a8fb9d7c2b",
+            "actions": [
+                {
+                    "name": "Cursor",
+                    "type": "PassThrough",
+                    "id": "1d25961f-7180-4e66-b7e3-0ba6bd5227e6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LeftClick",
+                    "type": "Value",
+                    "id": "15b6836b-5786-48a6-8cd4-8d10705dda41",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1cc4d6f3-c5b0-414a-8ca8-d76d198811ad",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cursor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cf4ffcb6-d037-4729-83ee-8d583ff079a3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
